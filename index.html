@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+*{  
+box-sizing: border;
+
+}
+input[type=text] {
+  width: 20%;
+  padding: 5px 1px;
+  margin: 1px 1px;
+  box-sizing: border-box;
+
+}
+
+#email{
+width:40%;
+
+}
+.checked{
+color:pink;
+}
+p{
+font-size:12px;
+}
+table{
+      border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+   
+}
+fa fa-star
+{
+color:pink;
+}
+ th,td{
+   text-align:left;
+  padding: 4px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+button{
+  background-color:grey;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding:10px;
+
+}
+
+</style>
+</head>
+<body>
+
+<h6>Name<span style="color:red">*</span></h6>
+
+<form id="demo">
+  <label for="fname"></label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname"></label>
+  <input type="text" id="lname" name="lname"><br>
+   <label>first<style="font-size:2px"></style></label>
+  <h6>E-mail<span style="color:red">*</span></h6>
+  
+    <label for="E-mail"></label>
+  <input type="text" id="email" name="email">
+  </form>
+  <h6>your experience<span style="color:red">*</span></h6>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<p>overall,how would you rate your experience with us?<p>
+<h6>How satisfied are you with?<span style="color:red">*</h6>
+<h6>Additional comments or sugestions</h6>
+        <div class="col-4 col-m-8"></div>
+
+<table>
+<tr>
+      <th> </th>
+     <th>very unsatisfied</th>
+    <th>unsatisfied</th>
+    <th>neutral</th>
+    <th>satisfied</th>
+   <th>very satisfied</th>
+
+    </tr>
+        <tr>
+      <td>purchase</td>
+      <td><input type="radio"></td>
+       <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      
+    </tr>
+    <tr>
+      <td>service</td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    <tr>
+      <td>overall company</td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      </tr></table>
+</div>
+        <div class="col-4 col-m-8"></div>
+
+<table>
+<tr>
+      <th> </th>
+          <th>very unlikely</th>
+    <th>likely</th>
+    <th>Neutral</th>
+    <th>Likely</th>
+   <th>very likely</th>
+
+    </tr>
+        <tr>
+      <td>Buy from us again</td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      
+    </tr>
+    <tr>
+      <td>Recommend our product to others</td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    <tr>
+      <td>Recommend our company to others</td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      </tr></table></div>
+      <h6>Additional comments or sugestions</h6>
+
+
+
+<form>
+    <label for="subject"></label>
+    <textarea id="subject"
+      style="width:475px;height:100px;"></textarea><br>
+       <button>submit</button>  
+
+</form>
+
+
+
+
+</body>
+</html>
+
+
